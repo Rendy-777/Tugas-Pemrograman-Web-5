@@ -7,7 +7,7 @@
 </form>
 
 <?php
-include 'hello.php';
+include 'koneksi.php';
 if(isset($_POST['submit'])){
     $id = $_POST['id'];
     $nim = $_POST['nim'];
